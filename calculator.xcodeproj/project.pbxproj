@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		6F93FC331AC05C3D00528E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93FC321AC05C3D00528E96 /* AppDelegate.swift */; };
 		6F93FC351AC05C3D00528E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93FC341AC05C3D00528E96 /* ViewController.swift */; };
-		6F93FC381AC05C3D00528E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F93FC361AC05C3D00528E96 /* Main.storyboard */; };
 		6F93FC3A1AC05C3D00528E96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F93FC391AC05C3D00528E96 /* Images.xcassets */; };
 		6F93FC3D1AC05C3D00528E96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F93FC3B1AC05C3D00528E96 /* LaunchScreen.xib */; };
 		6F93FC491AC05C3D00528E96 /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93FC481AC05C3D00528E96 /* calculatorTests.swift */; };
+		6F93FC5D1AC30EB100528E96 /* IMG_0023.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6F93FC5C1AC30EB100528E96 /* IMG_0023.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		6F93FC311AC05C3D00528E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F93FC321AC05C3D00528E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F93FC341AC05C3D00528E96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F93FC371AC05C3D00528E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F93FC391AC05C3D00528E96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F93FC3C1AC05C3D00528E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6F93FC421AC05C3D00528E96 /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F93FC471AC05C3D00528E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F93FC481AC05C3D00528E96 /* calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTests.swift; sourceTree = "<group>"; };
+		6F93FC5C1AC30EB100528E96 /* IMG_0023.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0023.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +77,9 @@
 		6F93FC2F1AC05C3D00528E96 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6F93FC5C1AC30EB100528E96 /* IMG_0023.JPG */,
 				6F93FC321AC05C3D00528E96 /* AppDelegate.swift */,
 				6F93FC341AC05C3D00528E96 /* ViewController.swift */,
-				6F93FC361AC05C3D00528E96 /* Main.storyboard */,
 				6F93FC391AC05C3D00528E96 /* Images.xcassets */,
 				6F93FC3B1AC05C3D00528E96 /* LaunchScreen.xib */,
 				6F93FC301AC05C3D00528E96 /* Supporting Files */,
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F93FC381AC05C3D00528E96 /* Main.storyboard in Resources */,
 				6F93FC3D1AC05C3D00528E96 /* LaunchScreen.xib in Resources */,
 				6F93FC3A1AC05C3D00528E96 /* Images.xcassets in Resources */,
+				6F93FC5D1AC30EB100528E96 /* IMG_0023.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6F93FC361AC05C3D00528E96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F93FC371AC05C3D00528E96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F93FC3B1AC05C3D00528E96 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +397,7 @@
 				6F93FC4E1AC05C3D00528E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F93FC4F1AC05C3D00528E96 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +406,7 @@
 				6F93FC511AC05C3D00528E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
